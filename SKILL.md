@@ -50,8 +50,8 @@ O único script é `scripts/gerar_mapa.py`, em Python 3 só com biblioteca padr�
 
 ## Outra ferramenta (Codex e outras)
 
-Esta skill foi feita e testada no Claude Code. **Não foi testada no Codex.** Se a pessoa pedir para instalar em outra ferramenta, a IA dela adapta na hora e conta o que realmente funcionou:
-
+Compatível com Claude Code, Codex e outras ferramentas de agentes, em Mac, Windows e Linux. Se a pessoa pedir para instalar
+fora do Claude Code, a IA dela adapta na hora, testa no computador dela e conta o que realmente funcionou:
 - **Onde pôr os arquivos:** confira na documentação atual da ferramenta. No Codex, a referência em 08/11/2026 era `~/.agents/skills/<name>`.
 - **Caminhos:** `scripts/...` e `references/...` são relativos à pasta onde este `SKILL.md` ficou instalado.
 - **Sem executar scripts:** a skill depende do script para calcular e validar. Diga à pessoa que não dá para gerar o mapa nessa ferramenta.
